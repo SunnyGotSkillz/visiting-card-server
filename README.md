@@ -3,7 +3,7 @@
 
 Backend server for the Visiting Card project
 
-The function of this server is to store the data of the visiting-card-android app. The tech stack chosen for the server is Django, and the main objective of is to create a RESTful Web Service (REST API) in Django which should be able to perform operation like so:
+The function of this server is to store the data of the visiting-card-android app. The tech stack chosen for the server is NodeJS, and the main objective of is to create a RESTful Web Service (REST API) in express which should be able to perform operation like so:
 
 * GET operation -To Retrieve data/Information and will return a list of visiting cards / User
 * PUT operation - To modify an already stored Visiting Card / User
