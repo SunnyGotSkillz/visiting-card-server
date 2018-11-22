@@ -1,0 +1,21 @@
+{
+    "extends": "airbnb-base",
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "rules": {
+        // Sometimes console-logs are useful, but you shouldn't use them too often
+        "no-console": "warn",
+        "prefer-destructuring": "off",
+        "linebreak-style": ["error", "windows"],
+        "no-unused-vars": "warn",
+        "padded-blocks": "off",
+        "no-trailing-spaces": "off",
+        "prefer-const": "warn",
+        "no-plusplus": "off",
+        "no-empty": "off",
+        "no-use-before-define": "off",
+        "import/newline-after-import": "off",
+        "global-require": "off"
+    }
+}
